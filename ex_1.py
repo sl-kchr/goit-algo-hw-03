@@ -1,6 +1,7 @@
 
 # 1 завдання. Створіть функцію get_days_from_today(date), яка розраховує кількість днів між заданою датою і поточною датою.
 from datetime import datetime
+
 def get_days_from_today(date):
     now = datetime.now()
 

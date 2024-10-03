@@ -8,6 +8,7 @@ def get_numbers_ticket(min, max, quantity):
          if min < max and max - min >= quantity:
             for i in range(min, max+1):
                 population.append(i)
+            print (population)
             your_num = random.sample(population, quantity)
             print(f'Ваші лотерейні числа:{your_num}')
             return your_num
@@ -19,4 +20,4 @@ def get_numbers_ticket(min, max, quantity):
           print(your_num)
           return your_num
           
-get_numbers_ticket(9, 10, 4)
+get_numbers_ticket(900, 1200, 4)
