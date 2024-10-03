@@ -13,6 +13,6 @@ def get_days_from_today(date):
 
     except ValueError:
         print('Нажаль ці данні неможливо оборобти.', '\n''Введіть двту в правильному форматі "РРРР-ММ-ДД"')
-get_days_from_today('2020-10-09')
+get_days_from_today('2020-10-08')
 
 
